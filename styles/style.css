@@ -1,0 +1,123 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 40pt;
+}
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+}
+
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+
+.main-header{
+    background: url(../img/engineering.jpg);
+    background-size: cover;
+    min-height: 650px;
+}
+
+.main-header .container{
+    margin-top: 110px;
+}
+
+.main-about{
+    position: relative;
+    background: url(../img/data.jpg);
+    background-size: cover;
+    min-height: 650px;
+}
+
+.secondary-header{
+    position: relative;
+    background: url(../img/investigadores.jpg);
+    background-size: cover;
+    min-height: 650px;
+}
+
+.secondary-header .container{
+    margin-top: 110px;
+}
+
+.background-overlay{
+    position: absolute;
+    background: rgba(48, 51, 107, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main-about .container{
+    margin-top: 100px;
+}
+.icon i{
+	color: white;
+	font-size: 5rem;
+	padding: 0;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.formulario{
+    padding: 1rem 0;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+    color: #787575;
+    margin: auto;
+}
+
+.enviar {
+    background-color: #333;
+    border-radius: 0px;
+    cursor: pointer;
+    color: #ffffff;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.enviar:hover {
+    background-color: #787575;
+}
+
+textarea {
+    height: 200px;
+}
+input, textarea {
+    margin-bottom: 20px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+	outline: none;
+}
+footer{
+    color: #fff;
+    padding: 15px 10px 10px;
+}
+
+
+/* Zoom In-Imágenes */
+.junta-consultiva .col img{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.junta-consultiva .col img:hover{
+	-webkit-transform: scale(0.95);
+	transform: scale(0.95);
+}
