@@ -67,6 +67,9 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
+.contacto{
+    padding: 2rem;
+}
 .formulario{
     padding: 1rem 0;
     text-align: justify;
@@ -110,7 +113,7 @@ footer{
 }
 
 
-/* Zoom In-Imágenes */
+/* Zoom In-Imágenes 
 .junta-consultiva .col img{
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
@@ -121,3 +124,4 @@ footer{
 	-webkit-transform: scale(0.95);
 	transform: scale(0.95);
 }
+*/
