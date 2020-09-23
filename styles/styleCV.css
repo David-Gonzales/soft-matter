@@ -1,0 +1,55 @@
+/* --------------  ASIDE ------------------ */
+#img-CV img{
+    border-radius: 50%;
+    width:18%;
+}
+aside{
+    background-color: #A1887F;
+}
+aside *{
+    color: white;
+}
+aside h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+aside section h2{
+    border-bottom: 2px solid white;
+}
+/* --------------- MAIN --------------------*/
+main section h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+main section h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.hero{
+    background-color: #90A4AE;
+}
+.hero h1{
+    color: #493e3a;
+    text-transform: uppercase;
+}
+.hero h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    border-top: 2px solid white;
+}
+.hero h4{
+    color: white;
+}
+
+.about-me{
+    background-color: #E0E0E0;
+}
+
+.about-me h2{
+    background-color: white;
+}
+article ul{
+    list-style: square;
+}
