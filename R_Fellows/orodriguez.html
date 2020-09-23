@@ -12,9 +12,11 @@
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<!--Mi Css-->
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="/styles/style.css">
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!--CSS de CV-->
+	<link rel="stylesheet" href="../styles/styleCV.css">
 </head>
 <body>
         <!--Navegación-->
@@ -61,51 +63,52 @@
         <!--Por ahora el header vacío-->
 	</header>
 	
-	<aside>
-		<figure>
-			<img 
-				src="../img/jair.jpeg" 
-				alt="imagen del investigador Obed Rodríguez"
-				style="width:20%;"
-			
-			/>
-		</figure>
-		<section>
-			<ul>
-				<li><span>Profesional Degree in Arqueology</span></li>
-				<li><span>Universidad Nacional de Trujillo </span><span>[año inicio - año final]</span></li>
-				<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
-			</ul>
-		</section>
-		<section>
-			<h2>Social Contact</h2>
-			<ul>
-				<li><span>dirección</span></li>
-				<li><span>obed@softmatter.org.pe</span></li>
-				<li><span>correo2</span></li>
-				<li><span>teléfono</span></li>
-			</ul>
-		</section>
-	</aside>
-	<main>
-		<section>
-			<h1>Jair Rodríguez Bustamante</h1>
-			<h3>Research Fellow</h3>
-			<h4>Soft Matter, Energy And Society Research Institute</h4>
-		</section>
-		<section>
-			<h2>About me</h2>
-			<p>Jair Rodríguez Bustamante holds a profesional degree in Arqueology at Universidad Nacional de Trujillo. His Research focus is Andean arqueology, ethnology and etchnohistory in the North of Peru. Currently he is doing research on landscape and architecture in pre-hispanic societies in the Central Andes of the Coast North of Peru, ritual specialists in quechua and afro Peruvian populations in the province of Lambayeque.</p>
-		</section>
-		<section>
-			<h3>Selected Publications</h3>
-			<article>
+	<div class="main-container">
+		<aside class="jairObed">
+			<figure id="img-CV">
+				<img 
+					src="../img/jair.jpeg" 
+					alt="imagen del investigador Obed Rodríguez"				
+				/>
+			</figure>
+			<section>
 				<ul>
-					<li>articulo1</li>
-					<li>articulo2</li>
+					<li><span>Profesional Degree in Arqueology</span></li>
+					<li><span>Universidad Nacional de Trujillo </span><span>[año inicio - año final]</span></li>
+					<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
 				</ul>
-			</article>
-		</section>
-	</main>
+			</section>
+			<section>
+				<h5>Social Contact</h5>
+				<ul>
+					<li><span>dirección</span></li>
+					<li><span>obed@softmatter.org.pe</span></li>
+					<li><span>correo2</span></li>
+					<li><span>teléfono</span></li>
+				</ul>
+			</section>
+		</aside>
+		<main>
+			<section class="hero">
+				<h1>Jair Rodríguez Bustamante</h1>
+				<h3>Research Fellow</h3>
+				<h4>Soft Matter, Energy And Society Research Institute</h4>
+			</section>
+			<section class="about-me">
+				<h2>About me</h2>
+				<p>Jair Rodríguez Bustamante holds a profesional degree in Arqueology at Universidad Nacional de Trujillo. His Research focus is Andean arqueology, ethnology and etchnohistory in the North of Peru. Currently he is doing research on landscape and architecture in pre-hispanic societies in the Central Andes of the Coast North of Peru, ritual specialists in quechua and afro Peruvian populations in the province of Lambayeque.</p>
+			</section>
+			<section class="selected-publications">
+				<h5>Selected Publications</h5>
+				<article>
+					<ul>
+						<li>articulo1</li>
+						<li>articulo2</li>
+					</ul>
+				</article>
+			</section>
+		</main>
+	</div>
+	
 </body>
 </html>

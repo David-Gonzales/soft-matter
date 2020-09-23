@@ -12,9 +12,11 @@
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<!--Mi Css-->
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="/styles/style.css">
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!--CSS de CV-->
+	<link rel="stylesheet" href="../styles/styleCV.css">
 </head>
 <body>
     <!--Navegación-->
@@ -60,56 +62,56 @@
     <header>
         <!--Por ahora el header vacío-->
 	</header>
-	
-	<aside>
-		<figure>
-			<img 
-				src="../img/jairo.jpeg" 
-				alt="imagen del investigador Jairo Rodríguez"
-				style="width:20%;"
-			
-			/>
-		</figure>
-		<section>
-			<ul>
-				<li>
-					<span>Bachelor Social Projects</span>
-				</li>
-				<li>
-					<span>Universidad Nacional Pedro Ruiz Gallo</span><span>[año inicio - año final]</span>
-				</li>
-				<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
-			</ul>
-		</section>
-		<section>
-			<h2>Social Contact</h2>
-			<ul>
-				<li><span>dirección</span></li>
-				<li><span>jairo@softmatter.org.pe</span></li>
-				<li><span>correo2</span></li>
-				<li><span>teléfono</span></li>
-			</ul>
-		</section>
-	</aside>
-	<main>
-		<section>
-			<h1>Jairo C. Rodríguez Bustamante</h1>
-			<h3>Research Fellow</h3>
-			<h4>Soft Matter, Energy And Society Research Institute</h4>
-		</section>
-		<section>
-			<h2>About me</h2>
-			<p>Jairo Rodriguez obtained his bachelor degree at Universidad Nacional Pedro Ruiz Gallo with a specialization in Social Projects. He holds a Master of Divinity by the Asia Pacific Nazarene Theological in Manila, Philippines. His research focus is on human development, poverty, social capital and food soverighnity. He has experience working in ecclesial, para-ecclesial institutions as well as NGOs.</p>
-		</section>
-		<section>
-			<h3>Selected Publications</h3>
-			<article>
+	<div class="main-container">
+		<aside class="jairo">
+			<figure id="img-CV">
+				<img 
+					src="../img/jairo.jpeg" 
+					alt="imagen del investigador Jairo Rodríguez"				
+				/>
+			</figure>
+			<section>
 				<ul>
-					<li>articulo1</li>
-					<li>articulo2</li>
+					<li>
+						<span>Bachelor Social Projects</span>
+					</li>
+					<li>
+						<span>Universidad Nacional Pedro Ruiz Gallo </span><span>[año inicio - año final]</span>
+					</li>
+					<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
 				</ul>
-			</article>
-		</section>
-	</main>
+			</section>
+			<section>
+				<h5>Social Contact</h5>
+				<ul>
+					<li><span>dirección</span></li>
+					<li><span>jairo@softmatter.org.pe</span></li>
+					<li><span>correo2</span></li>
+					<li><span>teléfono</span></li>
+				</ul>
+			</section>
+		</aside>
+		<main>
+			<section class="hero">
+				<h1>Jairo C. Rodríguez Bustamante</h1>
+				<h3>Research Fellow</h3>
+				<h4>Soft Matter, Energy And Society Research Institute</h4>
+			</section>
+			<section class="about-me">
+				<h2>About me</h2>
+				<p>Jairo Rodriguez obtained his bachelor degree at Universidad Nacional Pedro Ruiz Gallo with a specialization in Social Projects. He holds a Master of Divinity by the Asia Pacific Nazarene Theological in Manila, Philippines. His research focus is on human development, poverty, social capital and food soverighnity. He has experience working in ecclesial, para-ecclesial institutions as well as NGOs.</p>
+			</section>
+			<section class="selected-publications">
+				<h5>Selected Publications</h5>
+				<article>
+					<ul>
+						<li>articulo1</li>
+						<li>articulo2</li>
+					</ul>
+				</article>
+			</section>
+		</main>
+	</div>
+	
 </body>
 </html>

@@ -12,9 +12,11 @@
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<!--Mi Css-->
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="/styles/style.css">
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!--CSS de CV-->
+	<link rel="stylesheet" href="../styles/styleCV.css">
 </head>
 <body>
        <!--Navegación-->
@@ -60,56 +62,57 @@
     <header>
         <!--Por ahora el header vacío-->
 	</header>
-	
-	<aside>
-		<figure>
-			<img 
-				src="../img/lokis.jpeg" 
-				alt="imagen de miembro asociado Karen Moreno"
-				style="width:20%;"
-			
-			/>
-		</figure>
-		<section>
-			<ul>
-				<li>
-					<span>Statistical Engineering</span>
-				</li>
-				<li>
-					<span>Universidad Nacional de Trujillo </span><span>[año inicio - año final]</span>
-				</li>
-				<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
-			</ul>
-		</section>
-		<section>
-			<h2>Social Contact</h2>
-			<ul>
-				<li><span>dirección</span></li>
-				<li><span>karen@softmatter.org.pe</span></li>
-				<li><span>correo2</span></li>
-				<li><span>teléfono</span></li>
-			</ul>
-		</section>
-	</aside>
-	<main>
-		<section>
-			<h1>Karen Fiorella Moreno</h1>
-			<h3>Associate Member</h3>
-			<h4>Soft Matter, Energy And Society Research Institute</h4>
-		</section>
-		<section>
-			<h2>About me</h2>
-			<p>Currently works as Statistical analyst at Universidad Privada Antenor Orrego. Holds a professional degree in Statistical Engineering at Universidad Nacional de Trujillo. Has specialization in Project Management focused under the PMI standard at the Project Management Institute of PUCP and Integrated Management Systems at PUCP. Has been awarded with funding for her project by Breaking New Grounds, IFES, and presented it in Africa, 2018. Has been trained to analyze management information for the decision-making, with inclusive leadership, experience in ecclesial and para-ecclesial leadership as well as in NGOs with a high knowledge of transformational development. Has high negotiating power, coordination capacity and management of personnel with broad sense of responsibility, work skills, and with a solid formation of spiritual and moral values.</p>
-		</section>
-		<section>
-			<h3>Selected Publications</h3>
-			<article>
+	<div class="main-container">
+		<aside class="lokis">
+			<figure id="img-CV">
+				<img 
+					src="../img/lokis.jpeg" 
+					alt="imagen de miembro asociado Karen Moreno"
+				
+				/>
+			</figure>
+			<section>
 				<ul>
-					<li>articulo1</li>
-					<li>articulo2</li>
+					<li>
+						<span>Statistical Engineering</span>
+					</li>
+					<li>
+						<span>Universidad Nacional de Trujillo </span><span>[año inicio - año final]</span>
+					</li>
+					<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
 				</ul>
-			</article>
-		</section>
-	</main>
+			</section>
+			<section>
+				<h5>Social Contact</h5>
+				<ul>
+					<li><span>dirección</span></li>
+					<li><span>karen@softmatter.org.pe</span></li>
+					<li><span>correo2</span></li>
+					<li><span>teléfono</span></li>
+				</ul>
+			</section>
+		</aside>
+		<main>
+			<section class="hero">
+				<h1>Karen Fiorella Moreno</h1>
+				<h3>Associate Member</h3>
+				<h4>Soft Matter, Energy And Society Research Institute</h4>
+			</section>
+			<section class="about-me">
+				<h2>About me</h2>
+				<p>Currently works as Statistical analyst at Universidad Privada Antenor Orrego. Holds a professional degree in Statistical Engineering at Universidad Nacional de Trujillo. Has specialization in Project Management focused under the PMI standard at the Project Management Institute of PUCP and Integrated Management Systems at PUCP. Has been awarded with funding for her project by Breaking New Grounds, IFES, and presented it in Africa, 2018. Has been trained to analyze management information for the decision-making, with inclusive leadership, experience in ecclesial and para-ecclesial leadership as well as in NGOs with a high knowledge of transformational development. Has high negotiating power, coordination capacity and management of personnel with broad sense of responsibility, work skills, and with a solid formation of spiritual and moral values.</p>
+			</section>
+			<section class="selected-publications">
+				<h5>Selected Publications</h5>
+				<article>
+					<ul>
+						<li>articulo1</li>
+						<li>articulo2</li>
+					</ul>
+				</article>
+			</section>
+		</main>
+	</div>
+	
 </body>
 </html>

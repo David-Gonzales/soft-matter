@@ -1,22 +1,113 @@
+/* ---------------- LAYOUT ------------------ */
+.main-container{
+    display: flex;
+    width: 1200;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+/* --------------- GENERAL ------------------ */
+ul{
+    list-style-type: none;
+}
 /* --------------  ASIDE ------------------ */
 #img-CV img{
+    margin-top: 3%;
+    margin-left: 15%;
     border-radius: 50%;
-    width:18%;
+    width:70%;
 }
+
 aside{
     background-color: #A1887F;
+    width: 135.5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
+.reno {
+    background-color: #A1887F;
+    width: 48%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.delia{
+    background-color: #A1887F;
+    width: 48.5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.jairo {
+    background-color: #A1887F;
+    width: 78.6%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.jairObed{
+    background-color: #A1887F;
+    width: 85%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.daniel-iglesias{
+    background-color: #A1887F;
+    width: 108.5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.zelada{
+    background-color: #A1887F;
+    width: 135%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.esther {
+    background-color: #A1887F;
+    width: 156%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.lokis {
+    background-color: #A1887F;
+    width: 178.5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.jair-cieza{
+    background-color: #A1887F;
+    width: 205%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 aside *{
     color: white;
 }
-aside h2{
+aside h5{
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
-}
-aside section h2{
     border-bottom: 2px solid white;
+
 }
+
 /* --------------- MAIN --------------------*/
+main{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 main section h2{
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -27,11 +118,15 @@ main section h3{
     letter-spacing: 5px;
 }
 .hero{
+    padding: 3% 20%;
+    text-align: center;
     background-color: #90A4AE;
 }
+
 .hero h1{
     color: #493e3a;
     text-transform: uppercase;
+    font-size: 30px;
 }
 .hero h3{
     text-transform: uppercase;
@@ -40,6 +135,7 @@ main section h3{
     border-top: 2px solid white;
 }
 .hero h4{
+    font-size: 20px;
     color: white;
 }
 
@@ -47,9 +143,20 @@ main section h3{
     background-color: #E0E0E0;
 }
 
+.about-me p{
+    line-height: 1.8em;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 22px;
+    margin-right: 22px;
+    text-align: justify;
+}
+
 .about-me h2{
     background-color: white;
 }
-article ul{
-    list-style: square;
+
+.selected-publications h5{
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }

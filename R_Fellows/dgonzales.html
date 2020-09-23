@@ -12,9 +12,11 @@
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<!--Mi Css-->
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="/styles/style.css">
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!--CSS de CV-->
+	<link rel="stylesheet" href="../styles/styleCV.css">
 </head>
 <body>
         <!--Navegación-->
@@ -60,60 +62,60 @@
     <header>
         <!--Por ahora el header vacío-->
 	</header>
-	
-	<aside>
-		<figure>
-			<img 
-				src="../img/david.jpeg" 
-				alt="imagen del webmaster David Gonzales"
-				style="width:20%;"
-			
-			/>
-		</figure>
-		<section>
-			<ul>
-				<li>
-					<span>Student</span>
-				</li>
-				<li>
-					<span>Universidad Nacional Pedro Ruiz Gallo </span><span>2019</span>
-				</li>
-				<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
-			</ul>
-		</section>
-		<section>
-			<h2>Social Contact</h2>
-			<ul>
-				<li><span>Esq. Av Grau & Av Leguía</span></li>
-				<li><span>Mórrope, Lambayeque</span></li>
-				<li><span>david@softmatter.org.pe</span></li>
-				<li><span>jgonzalesbo@unprg.edu.pe</span></li>
-				<li><span>+51 995 174 370</span></li>
-			</ul>
-		</section>
-	</aside>
-	<main>
-		<section>
-			<h1>J. David Gonzales Bocanegra</h1>
-			<h3>Associate Member</h3>
-			<h4>Soft Matter, Energy And Society Research Institute</h4>
-		</section>
-		<section>
-			<h2>About me</h2>
-			<p>Computer engineering and informatics student at the Pedro Ruiz Gallo National University (UNPRG). Junior Programmer. Belongs to the top 30% of the Department of Informatics. Part of the Local Board of Directors of the CBU - UNPRG.</p>
-		</section>
-		<!--
-		<section>
-			<h3>Selected Publications</h3>
-			<article>
+	<div class="main-container">
+		<aside class="reno">
+			<figure id="img-CV">
+				<img 
+					src="../img/david.jpeg" 
+					alt="imagen del webmaster David Gonzales"
+				/>
+			</figure>
+			<section>
 				<ul>
-					<li>articulo1</li>
-					<li>articulo2</li>
+					<li>
+						<span>Student</span>
+					</li>
+					<li>
+						<span>Universidad Nacional Pedro Ruiz Gallo </span><span>2019</span>
+					</li>
+					<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
 				</ul>
-			</article>
-		</section>
-		-->
-		
-	</main>
+			</section>
+			<section>
+				<h5>Social Contact</h5>
+				<ul>
+					<li><span>Esq. Av Grau & Av Leguía</span></li>
+					<li><span>Mórrope, Lambayeque</span></li>
+					<li><span>david@softmatter.org.pe</span></li>
+					<li><span>jgonzalesbo@unprg.edu.pe</span></li>
+					<li><span>+51 995 174 370</span></li>
+				</ul>
+			</section>
+		</aside>
+		<main>
+			<section class="hero">
+				<h1>J. David Gonzales Bocanegra</h1>
+				<h3>Associate Member</h3>
+				<h4>Soft Matter, Energy And Society Research Institute</h4>
+			</section>
+			<section class="about-me">
+				<h2>About me</h2>
+				<p>Computer engineering and informatics student at the Pedro Ruiz Gallo National University (UNPRG). Junior Programmer. Belongs to the top 30% of the Department of Informatics. Part of the Local Board of Directors of the CBU - UNPRG.</p>
+			</section>
+			<!--
+			<section class="selected-publications">
+				<h5>Selected Publications</h5>
+				<article>
+					<ul>
+						<li>articulo1</li>
+						<li>articulo2</li>
+					</ul>
+				</article>
+			</section>
+			-->
+			
+		</main>
+	</div>
+	
 </body>
 </html>

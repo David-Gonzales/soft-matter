@@ -12,9 +12,11 @@
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<!--Mi Css-->
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="/styles/style.css">
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!--CSS de CV-->
+	<link rel="stylesheet" href="../styles/styleCV.css">
 </head>
 <body>
     <!--Navegación-->
@@ -61,55 +63,56 @@
         <!--Por ahora el header vacío-->
 	</header>
 	
-	<aside>
-		<figure>
-			<img 
-				src="../img/jair2.jpeg" 
-				alt="imagen del investigador Jair Cieza"
-				style="width:20%;"
-			
-			/>
-		</figure>
-		<section>
-			<ul>
-				<li>
-					<span>Chemical Engineering</span>
-				</li>
-				<li>
-					<span>Universidad Nacional Pedro Ruiz Gallo </span><span>[año inicio - año final]</span>
-				</li>
-				<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
-			</ul>
-		</section>
-		<section>
-			<h2>Social Contact</h2>
-			<ul>
-				<li><span>dirección</span></li>
-				<li><span>jair@softmatter.org.pe</span></li>
-				<li><span>correo2</span></li>
-				<li><span>teléfono</span></li>
-			</ul>
-		</section>
-	</aside>
-	<main>
-		<section>
-			<h1>Jair Rubén Cieza</h1>
-			<h3>Research Fellow</h3>
-			<h4>Soft Matter, Energy And Society Research Institute</h4>
-		</section>
-		<section>
-			<h2>About me</h2>
-			<p>Ruben Jair Cieza was born and raised in Tuman, province of Chiclayo, Peru. He obtained his bachelor degree from the “Universidad Nacional Pedro Ruiz Gallo” in Chemical Engineering, with a specialization in Integrated Management Systems from the Universidad Nacional de Ingenieria. Ruben pursued his master's degree in Chemical Engineering from the University of Puerto Rico at Mayaguez. Currently, he is a doctoral candidate at the Department of Nanoscience at the North Carolina University of Greensboro, USA. Ruben’s experience ranging from production processes to modification of material surfaces. His research focus is the study of physicochemical surface properties that tune the bacterial adhesion on the biomaterial surfaces. These materials are used in implants and biomedical devices. By understanding these surfaces properties, Ruben works on the fabrication and characterization of an antimicrobial biomimetic material produced by the Nanosphere Lithography technique.</p>
-		</section>
-		<section>
-			<h3>Selected Publications</h3>
-			<article>
+	<div class="main-container">
+		<aside class="jair-cieza">
+			<figure id="img-CV">
+				<img 
+					src="../img/jair2.jpeg" 
+					alt="imagen del investigador Jair Cieza"				
+				/>
+			</figure>
+			<section>
 				<ul>
-					<li>articulo1</li>
-					<li>articulo2</li>
+					<li>
+						<span>Chemical Engineering</span>
+					</li>
+					<li>
+						<span>Universidad Nacional Pedro Ruiz Gallo </span><span>[año inicio - año final]</span>
+					</li>
+					<!--Se siguen colocando los grados y universidades de acuerdo al investigador-->
 				</ul>
-			</article>
-		</section>
-	</main>
+			</section>
+			<section>
+				<h5>Social Contact</h5>
+				<ul>
+					<li><span>dirección</span></li>
+					<li><span>jair@softmatter.org.pe</span></li>
+					<li><span>correo2</span></li>
+					<li><span>teléfono</span></li>
+				</ul>
+			</section>
+		</aside>
+		<main>
+			<section class="hero">
+				<h1>Jair Rubén Cieza</h1>
+				<h3>Research Fellow</h3>
+				<h4>Soft Matter, Energy And Society Research Institute</h4>
+			</section>
+			<section class="about-me">
+				<h2>About me</h2>
+				<p>Ruben Jair Cieza was born and raised in Tuman, province of Chiclayo, Peru. He obtained his bachelor degree from the “Universidad Nacional Pedro Ruiz Gallo” in Chemical Engineering, with a specialization in Integrated Management Systems from the Universidad Nacional de Ingenieria. Ruben pursued his master's degree in Chemical Engineering from the University of Puerto Rico at Mayaguez. Currently, he is a doctoral candidate at the Department of Nanoscience at the North Carolina University of Greensboro, USA. Ruben’s experience ranging from production processes to modification of material surfaces. His research focus is the study of physicochemical surface properties that tune the bacterial adhesion on the biomaterial surfaces. These materials are used in implants and biomedical devices. By understanding these surfaces properties, Ruben works on the fabrication and characterization of an antimicrobial biomimetic material produced by the Nanosphere Lithography technique.</p>
+			</section>
+			<section class="selected-publications">
+				<h5>Selected Publications</h5>
+				<article>
+					<ul>
+						<li>articulo1</li>
+						<li>articulo2</li>
+					</ul>
+				</article>
+			</section>
+		</main>
+	</div>
+	
 </body>
 </html>
