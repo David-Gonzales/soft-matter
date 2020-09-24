@@ -32,6 +32,7 @@ aside{
     margin-left: 2%;
     margin-right: 2%;
 }
+
 .delia{
     background-color: #A1887F;
     width: 48.5%;
@@ -67,6 +68,13 @@ aside{
     margin-left: 2%;
     margin-right: 2%;
 }
+.juanca{
+    background-color: #A1887F;
+    width: 152.5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 .esther {
     background-color: #A1887F;
     width: 156%;
@@ -74,7 +82,9 @@ aside{
     margin-left: 2%;
     margin-right: 2%;
 }
-
+span{
+    margin-right: 0.5px;
+}
 .lokis {
     background-color: #A1887F;
     width: 178.5%;
