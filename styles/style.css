@@ -1,117 +1,130 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-h1{
-    font-size: 40pt;
-}
-.navbar{
-    box-shadow: 2px 2px 5px #000;
+* {
+  box-sizing: border-box;
 }
 
-.navbar .nav-item .nav-link{
-    color: #fff;
+html {
+  scroll-behavior: smooth;
 }
 
-.main-header{
-    background: url(../img/engineering.jpg);
-    background-size: cover;
-    min-height: 650px;
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 40pt;
+}
+.navbar {
+  box-shadow: 2px 2px 5px #000;
 }
 
-.main-header .container{
-    margin-top: 110px;
+.navbar .nav-item .nav-link {
+  color: #fff;
 }
 
-.main-about{
-    position: relative;
-    background: url(../img/data.jpg);
-    background-size: cover;
-    min-height: 650px;
+.main-header {
+  background: url(../img/engineering.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  min-height: 650px;
 }
 
-.secondary-header{
-    position: relative;
-    background: url(../img/investigadores.jpg);
-    background-size: cover;
-    min-height: 650px;
+.main-header .container {
+  margin-top: 110px;
 }
 
-.secondary-header .container{
-    margin-top: 110px;
+.main-about {
+  position: relative;
+  background: url(../img/data.jpg);
+  background-size: cover;
+  min-height: 650px;
 }
 
-.background-overlay{
-    position: absolute;
-    background: rgba(48, 51, 107, 0.5);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.secondary-header {
+  position: relative;
+  background: url(../img/investigadores.jpg);
+  background-size: cover;
+  min-height: 650px;
 }
 
-.main-about .container{
-    margin-top: 100px;
+.secondary-header .container {
+  margin-top: 110px;
 }
-.icon i{
-	color: white;
-	font-size: 5rem;
-	padding: 0;
+
+.background-overlay {
+  position: absolute;
+  background: rgba(48, 51, 107, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-.grid-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+
+.main-about .container {
+  margin-top: 100px;
 }
-.grid-3{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+.icon i {
+  color: white;
+  font-size: 5rem;
+  padding: 0;
 }
-.contacto{
-    padding: 2rem;
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
-.formulario{
-    padding: 1rem 0;
-    text-align: justify;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-size: 20pt;
-    color: #787575;
-    margin: auto;
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.contacto {
+  padding: 2rem;
+}
+.formulario {
+  padding: 1rem 0;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20pt;
+  color: #787575;
+  margin: auto;
 }
 
 .enviar {
-    background-color: #333;
-    border-radius: 0px;
-    cursor: pointer;
-    color: #ffffff;
-    outline: none;
-    margin: 0;
-    font-weight: bold;
+  background-color: #333;
+  border-radius: 0px;
+  cursor: pointer;
+  color: #ffffff;
+  outline: none;
+  margin: 0;
+  font-weight: bold;
 }
 .enviar:hover {
-    background-color: #787575;
+  background-color: #787575;
 }
 
 textarea {
-    height: 200px;
+  height: 200px;
 }
-input, textarea {
-    margin-bottom: 20px;
-    font-size: 11pt;
-    padding: 15px 10px 10px;
-    border: 1px solid #cecece;
-    background-color: #efefef;
-    color: #787575;
-    border-radius: 5px;
-    width: 70%;
-	outline: none;
+input,
+textarea {
+  margin-bottom: 20px;
+  font-size: 11pt;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #efefef;
+  color: #787575;
+  border-radius: 5px;
+  width: 70%;
+  outline: none;
 }
-footer{
-    color: #fff;
-    padding: 15px 10px 10px;
+footer {
+  color: #fff;
+  padding: 15px 10px 10px;
 }
-
 
 /* Zoom In-Imágenes 
 .junta-consultiva .col img{
