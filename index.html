@@ -1,410 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Soft Matter, Energy and Society Research Institute</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="José David Gonzales Bocanegra" />
+    <link rel="icon" type="image/png" href="img/icono.png" />
 
-<head>
-	<title> Soft Matter, Energy and Society Research Institute</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="José David Gonzales Bocanegra">
-	<link rel="icon" type="image/png" href="img/icono.png" />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!--Mi Css-->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-	<!--Font Awesome-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-	<!--Bootstrap CSS-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<!--Mi Css-->
-	<link rel="stylesheet" href="styles/style.css">
-	<!--Google Fonts-->
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <body>
+    <!--Navegación-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="img/logo.png"
+          href="#"
+          alt="logotipo"
+          class="img-logo"
+          style="width: 30%"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >HOME <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              TEAM
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#advisor-board">ADVISOR BOARD</a>
+              <a class="dropdown-item" href="#research-fellows"
+                >RESEARCH FELLOWS</a
+              >
+              <a class="dropdown-item" href="#asociate-members"
+                >ASSOCIATE MEMBERS</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-</head>
+    <!--BLOQUE #01: Header-->
+    <header class="main-header">
+      <!--Título e íconos de redes sociales-->
+      <div class="text-white py-5">
+        <div class="container text-center">
+          <h1 class="title justify-content-center align-self-center py-5">
+            SOFT MATTER, ENERGY AND SOCIETY RESEARCH INSTITUTE
+          </h1>
+          <div class="row">
+            <div id="facebook" class="col">
+              <a
+                class="icon"
+                href="https://web.facebook.com/softmatter"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </div>
+            <div id="twitter" class="col">
+              <a class="icon" href="" target="_blank">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </div>
+            <div id="instagram" class="col">
+              <a class="icon" href="" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<body>
-	<!--Navegación-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a 
-			class="navbar-brand" 
-			href="index.html">
-			<img 
-				src="img/logo.png" 
-				href="#" alt="logotipo" 
-				class="img-logo" 
-				style="width: 30%;"
-			/>
-		</a>
-		<button
-			class="navbar-toggler" 
-			type="button" 
-			data-toggle="collapse" 
-			data-target="#navbarNav" 
-			aria-controls="navbarNav" 
-			aria-expanded="false" 
-			aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a 
-						class="nav-link" 
-						href="index.html">HOME <span class="sr-only">(current)</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">ABOUT</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a 
-						class="nav-link dropdown-toggle" 
-						href="#" 
-						id="navbarDropdownMenuLink" 
-						role="button" 
-						data-toggle="dropdown" 
-						aria-haspopup="true" 
-						aria-expanded="false">
-						TEAM
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">ADVISOR BOARD</a>
-						<a class="dropdown-item" href="/pages/research_fellows.html" target="_blank">RESEARCH FELLOWS</a>
-						<a class="dropdown-item" href="#">ASSOCIATE MEMBERS</a>
-					</div>
-				</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/pages/research_fellows.html">RESEARCH</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">ACADEMICS</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">CONTACT</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">ESPAÑOL</a>
-					</li>
-			</ul>
-		</div>
-	</nav>
-	
-	<!--BLOQUE #01: Header-->
-	<header class="main-header">
-		<!--Título e íconos de redes sociales-->
-		<div class="text-white py-5">
-			<div class="container text-center">
-				<h1 class="title justify-content-center align-self-center py-5">SOFT MATTER, ENERGY AND SOCIETY RESEARCH INSTITUTE</h1>
-				<div class="row">
-					<div id="facebook" class="col">
-						<a class="icon" href="https://web.facebook.com/softmatter" target="_blank">
-							<i class="fab fa-facebook-square"></i>
-						</a>
-					</div>
-					<div id="twitter" class="col">
-						<a class="icon" href="" target="_blank">
-							<i class="fab fa-twitter-square"></i>
-						</a>
-					</div>
-					<div id="instagram" class="col">
-						<a class="icon" href="" target="_blank">
-							<i class="fab fa-instagram"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>		
-	</header>
+    <!--BLOQUE #02-->
+    <section>
+      <h3 class="title text-center py-5">
+        COMMITED TO BRIDGE SOFT MATERIALS AND ENERGY WITH SOCIETY
+      </h3>
+    </section>
 
-		<!--BLOQUE #02-->
-		<section>
-			<h3 class="title text-center py-5">COMMITED TO BRIDGE SOFT MATERIALS AND ENERGY WITH SOCIETY</h3>
-		</section>
+    <!--BLOQUE #03: ¿Quiénes somos?-->
+    <section id="about" class="main-about">
+      <div class="background-overlay text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-6 text-center justify-content-center align-self-center"
+            >
+              <img
+                src="img/scientist.jpg"
+                alt="scientist"
+                class="img-fluid imagen"
+                style="width: 70%"
+              />
+            </div>
+            <div
+              class="col-md-6 text-center justify-content-center align-self-center"
+            >
+              <h1 class="title">WHO WE ARE?</h1>
+              <h4>SESI - Soft Matter, Energy and Society Research Institute</h4>
+              <p class="text">
+                SESI is an multidisciplinary research institution devoted to
+                advance the fields of soft materials and energy, in a constant
+                dialogue with societal issues. We believe that no research
+                should be done for the sake of it, but for relevant questions
+                and much-needed answers to today's environmental, biomedical and
+                social quests. We are trying to inform policy-makers with
+                science-based evidence and arguments to solve current and future
+                crisis.
+              </p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-width"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<!--BLOQUE #03: ¿Quiénes somos?-->
-		<section class="main-about">
-			<div class="background-overlay text-white py-5">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 text-center justify-content-center align-self-center">
-							<img src="img/scientist.jpg" alt="scientist" class="img-fluid imagen" style="width: 70%;">
-						</div>
-						<div class="col-md-6 text-center justify-content-center align-self-center">
-							<h1 class="title">WHO WE ARE?</h1>
-							<h4>SESI - Soft Matter, Energy and Society Research Institute</h4>
-							<p class="text">
+    <!--BLOQUE #04: Nuestro Equipo-->
+    <section class="team bg-light py-5">
+      <div>
+        <h1 class="text-center">Our Team</h1>
+        <p class="text-center">
+          Our team is composed of an advisory board, experts on their respective
+          fields, research fellows and associate members.
+        </p>
 
-							SESI is an multidisciplinary research institution devoted to advance the fields of soft materials and energy, in a constant dialogue with societal issues. We believe that no research should be done for the sake of it, but for relevant questions and much-needed answers to today's environmental, biomedical and social quests.
-							We are trying to inform policy-makers with science-based evidence and arguments to solve current and future crisis.
-							</p>
-							<a href="#" class="btn btn-outline-secondary btn-lg text-width">Read More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        <div id="advisor-board" class="junta-consultiva py-3">
+          <h1 class="text-center py-5">Advisory Board</h1>
+          <div class="container grid-3 text-center">
+            <div class="col">
+              <img
+                class="imagen"
+                src="img/bullon.jpg"
+                alt="F. Bullon"
+                style="width: 90%"
+              />
+              <h4 class="text-center persona">H. Fernando Bullón, PhD</h4>
+            </div>
+            <div class="col">
+              <img
+                class="imagen"
+                src="img/monteza.jpg"
+                alt="C. Monteza"
+                style="width: 90%"
+              />
+              <h4 class="text-center persona">César Monteza Arbulú, ScD</h4>
+            </div>
+            <div class="col">
+              <img
+                class="imagen"
+                src="img/isabel.jpg"
+                alt="I. Quispe"
+                style="width: 90%"
+              />
+              <h4 class="text-center persona">Isabel Quispe, PhD</h4>
+            </div>
+          </div>
+        </div>
 
-		<!--BLOQUE #04: Nuestro Equipo-->
-		<section class="team bg-light py-5">
-			<div>
-				<h1 class="text-center">Our Team</h1>
-				<p class="text-center">Our team is composed of an advisory board, experts on their respective fields, research fellows and associate members.</p>
+        <div id="research-fellows" class="investigadores py-5">
+          <h1 class="text-center">Research Fellows</h1>
+          <div class="container grid-3 text-center py-3">
+            <div class="col1">
+              <div>
+                <figure>
+                  <a href="R_Fellows/mzelada.html">
+                    <img
+                      src="img/zeladxxx.jpg"
+                      alt="M. Zelada"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
 
-				<div class="junta-consultiva py-3">
-					<h1 class="text-center py-5">Advisory Board</h1>
-					<div class="container grid-3 text-center">
-						
-						<div class="col">
-							<img class="imagen" src="img/bullon.jpg" alt="F. Bullon" style="width: 90%;">
-							<h4 class="text-center persona">H. Fernando Bullón, PhD</h4>
-						</div>
-						<div class="col">
-							<img class="imagen" src="img/monteza.jpg" alt="C. Monteza" style="width: 90%;">
-							<h4 class="text-center persona">César Monteza Arbulú, ScD</h4>
-						</div>
-						<div class="col">
-							<img class="imagen" src="img/isabel.jpg" alt="I. Quispe" style="width:90%;">
-							<h4 class="text-center persona">Isabel Quispe, PhD</h4>
-						</div>
-					</div>
-				</div>
+                <h3 class="text-center">Moisés J. Zelada</h3>
+              </div>
+            </div>
+            <div class="col2">
+              <div>
+                <figure>
+                  <a href="R_Fellows/rcieza.html">
+                    <img
+                      src="img/jair2.jpeg"
+                      alt="R. Cieza"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">Rubén Jair Cieza, MS</h3>
+              </div>
+            </div>
+            <div class="col3">
+              <div>
+                <figure>
+                  <a href="R_Fellows/ecardenas.html">
+                    <img
+                      src="img/esther.jpeg"
+                      alt="E. Cárdenas"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">D. Esther Cárdenas, DVM</h3>
+              </div>
+            </div>
+          </div>
+          <div class="container grid-3 text-center">
+            <div class="col1">
+              <div>
+                <figure>
+                  <a href="R_Fellows/ddelacruz.html">
+                    <img
+                      src="img/delia.jpg"
+                      alt="D. de la Cruz"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">Delia De la Cruz Pérez, MSEd</h3>
+              </div>
+            </div>
+            <div class="col2">
+              <div>
+                <figure>
+                  <a href="R_Fellows/diglesias.html">
+                    <img
+                      src="img/iglesias.jpg"
+                      alt="D. Iglesias"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">Daniel A. Iglesias, JD</h3>
+              </div>
+            </div>
+            <div class="col3">
+              <div>
+                <figure>
+                  <a href="R_Fellows/dcardenas.html">
+                    <img
+                      src="img/daniel.jpg"
+                      alt="D. Cárdenas"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">E. Daniel Cárdenas-Vásquez, MS</h3>
+              </div>
+            </div>
+          </div>
+          <div class="container grid-3 text-center">
+            <div class="col1">
+              <div>
+                <figure>
+                  <a href="R_Fellows/jrodriguez.html">
+                    <img
+                      src="img/jairo.jpeg"
+                      alt="J. Rodríguez"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">Jairo C. Rodríguez Bustamante, MDiv</h3>
+              </div>
+            </div>
+            <div class="col2">
+              <div>
+                <figure>
+                  <a href="R_Fellows/orodriguez.html">
+                    <img
+                      src="img/jair.jpeg"
+                      alt="O. Rodríguez"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">Jair Rodríguez Bustamante</h3>
+              </div>
+            </div>
+            <div class="col3">
+              <div>
+                <figure>
+                  <a href="R_Fellows/jmunoz.html">
+                    <img
+                      src="img/juanca.jpg"
+                      alt="J. Muñoz"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">Juan Carlos Muñoz Senmache</h3>
+              </div>
+            </div>
+          </div>
+        </div>
 
-				<div class="investigadores py-5">
-					<h1 class="text-center">Research Fellows</h1>
-					<div class="container grid-3 text-center py-3">
-							<div class="col1">
-								<div>
-									<figure>
-										<a href="R_Fellows/mzelada.html">
-											<img 
-											src="img/zeladxxx.jpg" 
-											alt="M. Zelada" 
-											style="width:90%;"
-											/>
-										</a>
-										
-									</figure>
-									
-									<h3 class="text-center">Moisés J. Zelada</h3>
-								</div>
-							</div>
-							<div class="col2">
-								<div>
-									<figure>
-										<a href="R_Fellows/rcieza.html">
-											<img 
-											src="img/jair2.jpeg" 
-											alt="R. Cieza" 
-											style="width:90%;"
-											/>
-										</a>
-										
-									</figure>
-									<h3 class="text-center">Rubén Jair Cieza, MS</h3>									
-								</div>
-							</div>
-							<div class="col3">
-								<div>
-									<figure>
-										<a href="R_Fellows/ecardenas.html">
-											<img 
-											src="img/esther.jpeg" 
-											alt="E. Cárdenas" 
-											style="width:90%;"
-											/>
-										</a>
-										
-									</figure>
-									<h3 class="text-center">D. Esther Cárdenas, DVM</h3>
-									
-								</div>
-							</div>
+        <div id="asociate-members" class="asociados">
+          <h1 class="text-center">Associate Members</h1>
+          <div class="container grid-3 text-center">
+            <div class="col1">
+              <div>
+                <figure>
+                  <a href="R_Fellows/kmoreno.html">
+                    <img
+                      src="img/lokis.jpeg"
+                      alt="K. Moreno"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">Karen Fiorella Moreno</h3>
+              </div>
+            </div>
+            <div class="col2">
+              <div>
+                <figure>
+                  <a href="R_Fellows/dgonzales.html">
+                    <img
+                      src="img/david.jpeg"
+                      alt="D. Gonzales"
+                      style="width: 90%"
+                    />
+                  </a>
+                </figure>
+                <h3 class="text-center">David Gonzales Bocanegra</h3>
+              </div>
+            </div>
+            <div class="col3">
+              <div>
+                <!--Columna vacía-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-					</div>
-					<div class="container grid-3 text-center">
-						
-							<div class="col1">
-								<div>
-									<figure>
-										<a href="R_Fellows/ddelacruz.html">
-											<img 
-											src="img/delia.jpg" 
-											alt="D. de la Cruz" 
-											style="width:90%;"
-											/>
-										</a>
-										
-									</figure>
-									<h3 class="text-center">Delia De la Cruz Pérez, MSEd</h3>
-									
-								</div>
-							</div>
-							<div class="col2">
-								<div>
-									<figure>
-										<a href="R_Fellows/diglesias.html">
-											<img 
-											src="img/iglesias.jpg" 
-											alt="D. Iglesias" 
-											style="width:90%;"
-											/>
-										</a>
-										
-									</figure>
-									<h3 class="text-center">Daniel A. Iglesias, JD</h3>
-									
-								</div>
-							</div>
-							<div class="col3">
-								<div>
-									<figure>
-										<a href="R_Fellows/dcardenas.html">
-											<img 
-											src="img/daniel.jpg" 
-											alt="D. Cárdenas" 
-											style="width:90%;"
-											/>
-										</a>
+    <section id="contact" class="contacto bg-medium">
+      <div class="container grid-2">
+        <div class="col1">
+          <h3 class="title">CONTACT US</h3>
+          <form class="formulario">
+            <input
+              name="nombre"
+              placeholder="Fill in your name"
+              type="text"
+              required
+            /><br />
+            <input
+              name="email"
+              placeholder="Email"
+              type="email"
+              required
+            /><br />
+            <textarea
+              name="mensaje"
+              placeholder="Write a message"
+              required
+            ></textarea>
+            <input type="submit" value="Send" class="enviar" />
+          </form>
+        </div>
+        <div class="col2">
+          <h3 class="title">FOLLOW US</h3>
+          <div class="social">
+            <!--REDES SOCIALES VACÍAS-->
+          </div>
+          <div class="siguenos">
+            <p class="text">
+              <b>Phone number:</b> +51 966.231.249<br />
+              <b>Email:</b> hola@softmatter.org.pe<br />
+              <b>Address:</b> Calle Juan XXIII s/n, Lambayeque, Lambayeque,
+              Perú<br /><br />
+              Contact us with any kinds of inquiries and collaboration offers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-									</figure>
-									<h3 class="text-center">E. Daniel Cárdenas-Vásquez, MS</h3>
-									
-								</div>
-							</div>
-						
-					</div>
-					<div class="container grid-3 text-center">
-						<div class="col1">
-							<div>
-								<figure>
-									<a href="R_Fellows/jrodriguez.html">
-										<img 
-										src="img/jairo.jpeg" 
-										alt="J. Rodríguez" 
-										style="width:90%;"
-										/>
-									</a>
-									
-								</figure>
-								<h3 class="text-center">Jairo C. Rodríguez Bustamante, MDiv</h3>
-								
-								</div>
-							</div>
-							<div class="col2">
-								<div>
-									<figure>
-										<a href="R_Fellows/orodriguez.html">
-											<img 
-											src="img/jair.jpeg" 
-											alt="O. Rodríguez" 
-											style="width:90%;"
-											/>
-										</a>
-										
-									</figure>
-									<h3 class="text-center">Jair Rodríguez Bustamante</h3>
-									
-								</div>
-							</div>
-							<div class="col3">
-								<div>
-									<figure>
-										<a href="R_Fellows/jmunoz.html">
-											<img 
-											src="img/juanca.jpg" 
-											alt="J. Muñoz" 
-											style="width:90%;"
-											/>
-										</a>
-										
-									</figure>
-									<h3 class="text-center">Juan Carlos Muñoz Senmache</h3>
-								</div>
-						</div>
-					</div>
-				</div>
+    <footer class="footer-main text-center bg-dark">
+      <div>
+        <p class="text">
+          Soft Matter &copy; 2020 - Todos los derechos reservados
+        </p>
+      </div>
+    </footer>
 
-				<div class="asociados">
-					<h1 class="text-center">Associate Members</h1>
-					<div class="container grid-3 text-center">
-						<div class="col1">
-							<div>
-								<figure>
-									<a href="R_Fellows/kmoreno.html">
-										<img 
-										src="img/lokis.jpeg" 
-										alt="K. Moreno" 
-										style="width:90%;"
-										/>
-									</a>
-									
-								</figure>
-								<h3 class="text-center">Karen Fiorella Moreno</h3>
-								
-							</div>
-						</div>
-						<div class="col2">
-							<div>
-								<figure>
-									<a href="R_Fellows/dgonzales.html">
-										<img 
-										src="img/david.jpeg" 
-										alt="D. Gonzales" 
-										style="width:90%;"
-										/>
-									</a>
-									
-								</figure>
-								<h3 class="text-center">David Gonzales Bocanegra</h3>
-								
-							</div>
-						</div>
-						<div class="col3">
-							<div>
-								<!--Columna vacía-->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="contacto bg-medium">
-			<div class="container grid-2">
-				<div class="col1">
-					<h3 class="title">CONTACT US</h3>
-					<form class="formulario">
-						<input name="nombre" placeholder="Fill in your name" type="text" required /><br />
-						<input name="email" placeholder="Email" type="email" required /><br />
-						<textarea name="mensaje" placeholder="Write a message" required></textarea>
-						<input type="submit" value="Send" class="enviar" />
-					</form>
-				</div>
-				<div class="col2">
-					<h3 class="title">FOLLOW US</h3>
-					<div class="social">
-						<!--REDES SOCIALES VACÍAS-->
-					</div>
-					<div class="siguenos">
-						<p class="text">
-							<b>Phone number:</b> +51 966.231.249<br>
-							<b>Email:</b> hola@softmatter.org.pe<br>
-							<b>Address:</b> Calle Juan XXIII s/n, Lambayeque, Lambayeque, Perú<br><br>
-							Contact us with any kinds of inquiries and collaboration offers.
-	
-						</p>
-					</div>
-				</div>
-			</div>
-        </section>
-
-		<footer class="text-center bg-dark">
-			<div>
-				<p class="text">Soft Matter &copy; 2020 - Todos los derechos reservados </p>
-			</div>
-		</footer>
-	
-	<!--BOOTSTRAP JS-->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
-
+    <!--BOOTSTRAP JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
